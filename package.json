@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FatimaAlmostafa/check_point1#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "mongoose": "^5.3.2"
   },
   "devDependencies": {

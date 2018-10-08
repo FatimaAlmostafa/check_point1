@@ -3,6 +3,7 @@
 //   name: 'Taka',
 //   email: 'taka@taka.com'
 // };
+
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/checkpoint');
 
