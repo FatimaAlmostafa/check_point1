@@ -1,0 +1,26 @@
+{
+  "name": "check_point1",
+  "version": "1.0.0",
+  "description": "The goal of this assessment is to allow you to move forward to next step, job search, you will have a very high chance to get a job. YOU CAN DO IT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatimaAlmostafa/check_point1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FatimaAlmostafa/check_point1/issues"
+  },
+  "homepage": "https://github.com/FatimaAlmostafa/check_point1#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mongoose": "^5.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
