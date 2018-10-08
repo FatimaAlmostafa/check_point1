@@ -38,17 +38,31 @@ exports.setAll = function (newUsers) {
 };
 
 exports.getOne = function (id) {
-
+  for(var i=0;i<users.length;i++){
+    if (id===users[i].id) {
+      return users[i];
+    } else {
+      return null
+    }
+  }
 };
 
 exports.addOne = function (user) {
- 
+  return users.push(user);
+
 };
 
 exports.updateOne = function (id, newProperties) {
- 
+  for(var i=0;i<users.length;i++){
+    if (id===users[i].id) {
+      return users[i].newProperties= newProperties;
+    }
 };
 
 exports.deleteOne = function (id) {
- 
+  for(var i=0;i<users.length;i++){
+    if (id===users[i].id) {
+      return users[i].splice(users[i],1)
+    }
+  }
 };
